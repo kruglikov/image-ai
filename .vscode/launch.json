@@ -1,0 +1,39 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Debug SvelteKit Dev Server",
+			"type": "node",
+			"request": "launch",
+			"program": "${workspaceFolder}/ai-image-generator/node_modules/.bin/vite",
+			"args": [
+				"dev"
+			],
+			"cwd": "${workspaceFolder}/ai-image-generator",
+			"console": "integratedTerminal",
+			"env": {
+				"NODE_OPTIONS": "--inspect=0.0.0.0:9229"
+			},
+			"skipFiles": [
+				"<node_internals>/**"
+			]
+		},
+		{
+			"name": "Debug SvelteKit with Break",
+			"type": "node",
+			"request": "launch",
+			"program": "${workspaceFolder}/ai-image-generator/node_modules/.bin/vite",
+			"args": [
+				"dev"
+			],
+			"cwd": "${workspaceFolder}/ai-image-generator",
+			"console": "integratedTerminal",
+			"env": {
+				"NODE_OPTIONS": "--inspect-brk=0.0.0.0:9229"
+			},
+			"skipFiles": [
+				"<node_internals>/**"
+			]
+		}
+	]
+}
