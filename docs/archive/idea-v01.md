@@ -1,0 +1,1 @@
+I want to create AI generation app. Meaning that you input a text ina naturl language and  this will get send to an ai service. And this ai service will give  the image back/ This should be very simple web application with the latest tools in Jujy 2025.
